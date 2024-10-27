@@ -14,9 +14,9 @@
         android:text="púlsame para\ngirar el dado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
 
     <ImageView
         android:id="@+id/dadoimagen"
@@ -28,5 +28,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonquesepulsa"
         app:srcCompat="@drawable/dado1" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,9 +3,8 @@ package com.example.ejerdados.modelo
 class Dado {
     var lados = 6
 
-    fun girar() {
-        val randomNum = (1..6).random()
-        println(randomNum)
+    fun girar(): Int {
+        return (1..lados).random()
     }
 }
 
